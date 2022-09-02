@@ -1,0 +1,264 @@
+/**VARIABLE**/
+/**GENERAL STYLE**/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, sans-serif;
+}
+
+.container {
+  max-width: 1145px;
+  margin: 0 auto;
+}
+
+input:focus {
+  outline: 0;
+}
+
+select:focus {
+  outline: 0;
+}
+
+.top-block {
+  background-color: #f8f3f4;
+  border-bottom: 1px solid #eaeaea;
+  margin-top: 22px;
+}
+
+.top-block .top-block_arrivals {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-block .top-block_arrivals .top-block_arrivals_h3 {
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #f16d7f;
+}
+
+.top-block .top-block_arrivals .top-block_arrivals_breadcrumb_link {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #636363;
+  text-decoration: none;
+}
+
+.top-block .top-block_arrivals .top-block_arrivals_breadcrumb .top-block_arrivals_breadcrumb_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+/**CONTENT**/
+.checkout-accordion {
+  width: 100%;
+}
+
+.checkout-accordion .checkout-accordion_box {
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 35px;
+}
+
+.checkout-accordion .checkout-accordion_box .checkout-accordion_input {
+  width: 0;
+  height: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: absolute;
+}
+
+.checkout-accordion .checkout-accordion_box .checkout-accordion_titel {
+  display: block;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  padding: 40px 0;
+  cursor: pointer;
+}
+
+.checkout-accordion .checkout-accordion_input:checked ~ .checkout-accordion_box-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.checkout-accordion .checkout-accordion_box-content {
+  display: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 78px;
+  padding: 0 38px;
+}
+
+.checkout-accordion .checkout-accordion_box-content .checkout-accordion_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.checkout-accordion .checkout-accordion_box-content .checkout-accordion_box-content_titel {
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 15px;
+}
+
+.checkout-accordion .checkout-accordion_box-content .checkout-accordion_box-content_p {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #b3b2b2;
+  margin-bottom: 27px;
+}
+
+.checkout-accordion .checkout-accordion_box-content .fast-checkout {
+  margin-bottom: 10px;
+}
+
+.checkout-accordion .checkout-accordion_box-content .checkout-accordion_box-content_select-text {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ff0d0d;
+}
+
+.checkout-accordion .checkout-accordion_box-content .checkout-accordion_box-content_label {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.checkout-accordion .checkout-accordion_box-content .checkout-accordion_box-content_radio {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.checkout-accordion .checkout-accordion_box-content .checkout-accordion_box-content_input-text {
+  width: 390px;
+  height: 45px;
+  border: 1px solid #eaeaea;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.checkout-accordion .checkout-accordion_box-content .checkout-accordion_box-content_button {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  padding: 20px 55px;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.checkout-accordion .checkout-accordion_box-content .checkout-accordion_box-content_link {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #222222;
+  text-decoration: none;
+  margin-left: 32px;
+}
+
+.footer-bg {
+  height: 80px;
+  width: 100%;
+  background-color: #e6e6e6;
+}
+
+.footer-bg .footer {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-bg .footer .footer-block_left {
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #7a7a7a;
+}
+
+.footer-bg .footer .footer-block_right .icon-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+.footer-bg .footer .footer-block_right .icon-list_li {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+  background-color: #fff;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-bg .footer .footer-block_right .icon-link {
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #b2b2b2;
+  padding: 0px 10px;
+}
+
+.footer-bg .footer .footer-block_right .icon-list_li:hover {
+  background-color: #f16d7f;
+}
+
+.footer-bg .footer .footer-block_right .icon-list_li:hover .icon-link {
+  color: #fff;
+}
+/*# sourceMappingURL=style-checkout.css.map */
